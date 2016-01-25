@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  "org.pegdown" % "pegdown" % "1.4.0",
   specs2 % Test
 )
 
